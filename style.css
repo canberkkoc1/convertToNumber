@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+section#inputs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 5rem;
+        
+    
+}
+
+select:focus{
+    border:4px solid rgba(0, 170, 248, 0.431);
+}
+
+section#forms{
+    background-color:#EEE8D5;
+    width: 70%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section .first{
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.first span#nmb{
+    position: absolute;
+    right: 3rem;
+    top: 2.5rem;
+}
+
+section .first #inputNumber{
+    width: 70%;
+    height: 2rem;
+    margin-top:1rem; 
+    border:3px solid #c0d8f0;
+    border-radius: 3px;  
+    padding-left: 1rem; 
+    
+}
+
+
+section .buttons{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+    height: 3rem;
+    margin-bottom: 5rem;
+
+}
+section .buttons .convert{
+    background-color:#0069D9 ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section button{
+    width: 6rem;
+    margin-left: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+section .second{
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+section .second #outputNumber{
+    width: 70%;
+    height: 5rem;
+    margin-top:1rem; 
+    border:3px solid #c0d8f0;
+    border-radius: 3px;   
+    padding: 1rem 2rem;
+}
+
+section .second .outputNumber{
+    position: absolute;
+    right: 3rem;
+    top: 2.5rem;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:500px){
+    header h1{
+        font-size: 1.5rem !important;        
+    }
+    section#inputs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+               
+
+    }
+    section#inputs div{
+        display: flex;
+        justify-content: center;        
+        width: 100%;
+    }
+
+    section#inputs select{
+        width: 40%;
+        margin-left:1.5rem
+    }
+
+    section#inputs #to{
+        margin-left: 3.8rem;
+    }
+
+    .first span#nmb{
+        right: 1rem;
+    }
+    section .buttons{
+        width: 90%;
+        margin:0 auto;
+        
+    }
+
+    .scnd{
+        margin-top: 2rem;
+    }
+    section .second .outputNumber{
+        right: 1rem;
+        top: 6rem;
+    }
+}

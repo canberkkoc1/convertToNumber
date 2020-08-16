@@ -1,0 +1,21 @@
+.head{
+    font-family: 'Red Rose', cursive;
+    font-size: 3rem;
+}
+
+.spans{
+    font-size: 2rem;
+}
+.selects{
+    width: 20rem;
+    height: 2rem;
+    border: 1px #CED4DA solid;   
+    border-radius: 5px; 
+    font-size: 1.2rem;
+}
+
+.btn{
+    background-color: #5A6268;
+    border: 1px solid black;
+    border-radius: 5px;
+}
